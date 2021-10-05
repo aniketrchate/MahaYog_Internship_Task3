@@ -1,0 +1,87 @@
+header {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#53ffc0+0,42e8d5+100 */
+background: #53ffc0; /* Old browsers */
+background: -moz-linear-gradient(top,  #53ffc0 0%, #42e8d5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #53ffc0 0%,#42e8d5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #53ffc0 0%,#42e8d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53ffc0', endColorstr='#42e8d5',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+}
+
+.admin-wrapper {
+	display: flex;
+	height: calc(100% - 66px);
+}
+
+.admin-wrapper .left-sidebar {
+	flex: 2;
+	height: 100%;
+	background: #ff3053;
+}
+
+.admin-wrapper .left-sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: aliceblue;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+	padding: 18px;
+	display: block;
+	border-bottom: 1px solid #ff3053;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+	background: #004044;
+}
+
+.admin-wrapper .admin-content {
+	flex: 8;
+	height: 100%;
+	padding: 40px 100px 100px;
+	overflow-y: scroll;
+}
+.admin-content .page-title {
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1rem;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+	color: green;
+}
+
+.delete {
+	color: red;
+}
+
+.publish {
+	color: green;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+	text-decoration: underline;
+}
+
+form div {
+	margin-bottom: 15px;
+}
